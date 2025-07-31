@@ -5,7 +5,6 @@ def print_bar_chart(data, mark):
     counter = Counter()
 
     if type(data) == list:
-
         for w in data:
             counter.update([w])
         max_len = max(map(len, counter))
